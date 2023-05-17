@@ -1,11 +1,18 @@
-package choi.web.api.repository;
+package web.api.repository;
 
 
-import choi.web.api.domain.Member;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.Repository;
+import web.api.domain.Member;
 
-public interface MemberJpaRepository extends JpaRepository<Member, Long> {
+import java.util.List;
+
+public interface MemberJpaRepository extends Repository<Member, Long> {
 
     Member findByMemberId(Long memberId);
 
+    List<Member> findAll();
+
+    Member save(Member member);
+
+    void deleteById(Long memberId);
 }

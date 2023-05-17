@@ -1,6 +1,6 @@
-package choi.web.api.controller;
+package web.api.controller;
 
-import choi.web.api.service.CardService;
+import web.api.service.CardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;
 

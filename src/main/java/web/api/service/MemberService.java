@@ -1,10 +1,10 @@
-package choi.web.api.service;
+package web.api.service;
 
-import choi.web.api.domain.Member;
-import choi.web.api.repository.MemberJpaRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import web.api.domain.Member;
+import web.api.repository.MemberJpaRepository;
 
 import java.util.List;
 

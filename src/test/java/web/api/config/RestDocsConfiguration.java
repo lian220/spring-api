@@ -1,4 +1,4 @@
-package choi.web.api.config;
+package web.api.config;
 
 import org.springframework.boot.test.autoconfigure.restdocs.RestDocsMockMvcConfigurationCustomizer;
 import org.springframework.boot.test.context.TestConfiguration;

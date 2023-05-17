@@ -1,4 +1,4 @@
-package choi.web.api.domain;
+package web.api.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

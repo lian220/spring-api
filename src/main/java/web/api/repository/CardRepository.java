@@ -1,4 +1,4 @@
-package choi.web.api.repository;
+package web.api.repository;
 
 import org.springframework.stereotype.Repository;
 

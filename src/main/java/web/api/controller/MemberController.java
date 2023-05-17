@@ -1,14 +1,14 @@
-package choi.web.api.controller;
+package web.api.controller;
 
-import choi.web.api.domain.Member;
-import choi.web.api.domain.ResponseData;
-import choi.web.api.service.MemberService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import web.api.domain.Member;
+import web.api.domain.ResponseData;
+import web.api.service.MemberService;
 
 import java.util.List;
 import java.util.stream.Collectors;

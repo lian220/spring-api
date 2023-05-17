@@ -1,6 +1,6 @@
-package choi.web.api.exception;
+package web.api.exception;
 
-import choi.web.api.domain.ResponseData;
+import web.api.domain.ResponseData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

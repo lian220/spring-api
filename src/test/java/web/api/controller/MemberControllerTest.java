@@ -1,6 +1,6 @@
-package choi.web.api.controller;
+package web.api.controller;
 
-import choi.web.api.config.RestDocsConfiguration;
+import web.api.config.RestDocsConfiguration;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;
@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @AutoConfigureRestDocs
-@Import(RestDocsConfiguration.class)
+@Import(web.api.config.RestDocsConfiguration.class)
 class MemberControllerTest {
 
     @Autowired
