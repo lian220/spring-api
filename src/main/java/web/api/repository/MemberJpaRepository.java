@@ -1,6 +1,5 @@
 package web.api.repository;
 
-
 import org.springframework.data.repository.Repository;
 import web.api.domain.Member;
 
